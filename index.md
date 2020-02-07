@@ -1,29 +1,4 @@
 ### A copycat of GCHQ recruiting challenge website
-<table align='center'>
-    <td>
-        <table width='100%'>
-            <tr width='100%'>
-                <td style="text-align: center;display:block;">
-                    <img src='./resources/logo.gif'>
-                </td>
-            </tr>
-        </table>
-        <table width='802px' height='450px' background='./resources/code-bg.jpg'>
-            <tr width='740px' height='80px' align='middle'></tr>
-                <tr width='740px' height='260px' align='middle'>
-                    <td style="text-align:middle;display:block;">
-                        <img src='./resources/cyber.png'>
-                    </td>
-                </tr>
-        </table>
-        <table width='100%'>
-            <tr>
-                <td align='right'>
-                    Enter Keyword:
-                    <input type='text'>
-                    <input type='button' value='SUBMIT' onclick="alert('a')">
-                <td>
-            </tr>
-        </table>
-    </td>
-</table>
+<script language='javascript'>
+    location='puzzle.html';
+</script>
