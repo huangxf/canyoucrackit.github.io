@@ -1,6 +1,8 @@
 <html>
-
-<body>
+<head>
+    <script src='./resources/puzzle.js'></script>
+</head>
+<body background="./resources/bg.jpg">
     <table align='center'>
         <td>
             <table width='100%'>
@@ -21,9 +23,9 @@
             <table width='100%'>
                 <tr>
                     <td align='right'>
-                        Enter Keyword:
-                        <input type='text'>
-                        <input type='button' value='SUBMIT' onclick="alert('a')">
+                        <span style="color:white">Enter Keyword:</span>
+                        <input type='text' id='answer'>
+                        <input type='button' value='SUBMIT' onclick="javascript:do_submit();">
                     <td>
                 </tr>
             </table>
